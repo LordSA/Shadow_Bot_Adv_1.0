@@ -4,7 +4,7 @@ import pyttsx3
 import os
 from dotenv import load_dotenv
 load_dotenv()
-OPENAI_KEY = os.getenv('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') # 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
+OPENAI_KEY = os.getenv('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') # OpenAI key from openai website 
 
 import openai
 openai.api_key = OPENAI_KEY
